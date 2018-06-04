@@ -1,11 +1,11 @@
 #nav {
-  color: #ffffff;
   background-color: transparent;
   border: none;
-  border-bottom: 10px solid black;
-  border-image-source: url(../../BlueprintText0.jpg);
-  border-image-slice: 20 22;
-  border-image-repeat: round; }
+  border-bottom: 1px solid black;
+  padding: 1vw; }
+
+.navbar-header :hover {
+  color: #ffffff !important; }
 
 #links a {
   color: #ffffff; }
@@ -17,10 +17,18 @@
   background-color: transparent;
   /* Changes regular toggle color */
   border-color: white;
-  /* Removes border color */ }
+  /* Changes toggle icon border color */ }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff; }
+
+.active a {
+  background: black !important;
+  color: black;
+  border-radius: 8px; }
+
+strong {
+  font-size: 1.5em; }
 
 body {
   background-color: lightblue; }
