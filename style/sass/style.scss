@@ -1,0 +1,30 @@
+#nav {
+	color: #ffffff;
+	background-color: transparent ;
+	border: none;
+	border-bottom: 10px solid black ;
+	border-image-source: url(../../BlueprintText0.jpg);
+  	border-image-slice: 20 22;
+  	border-image-repeat: round;
+}
+#links a{
+	color: #ffffff;
+	
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+.navbar-default .navbar-toggle {
+	background-color: transparent; /* Changes regular toggle color */
+	border-color: white; /* Removes border color */
+   
+
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #ffffff ;
+}
+
+
+body{
+	background-color: lightblue;
+}
