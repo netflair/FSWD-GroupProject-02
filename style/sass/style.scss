@@ -1,19 +1,27 @@
+@import 'variables';
+// h1{
+// 	font-family: $Hfont;
+// 	font-size: 4em;
+// }
+// p{
+// 	font-family: $Pfont;
+// } doesn't look nice 
 #nav {
 	background-color: transparent ;
 	border: none;
-	border-bottom: 1px solid black ;
-	// border-image-source: url(../../BlueprintText0.jpg);
- //  	border-image-slice: 10 10;
- //  	border-image-repeat: round;
+	border-bottom: 5px solid black ;
+	border-image-source: url(../../img/borders/border2.png);
+	border-image-slice: 15 1;
+ 	border-image-repeat: round;
   	padding: 1vw ;
 }
 .navbar-header :hover{
-	color: #ffffff !important ;
+	color: $maincl !important ;
 	
 
 }
 #links a{
-	color: #ffffff;	
+	color: $maincl;	
 }
 
 .navbar-default .navbar-brand {
@@ -24,17 +32,50 @@
 	border-color: white; /* Changes toggle icon border color */
 }
 .navbar-default .navbar-toggle .icon-bar{
-	background-color: #ffffff ;
+	background-color: $maincl ;
 }
 .active a {
-	background: black !important;
-	color: black ; 
+	background-image: linear-gradient(#2471A3, #1A5276);
+	opacity: 0.8;
 	border-radius: 8px;
 }
 strong{
 	font-size: 1.5em;
 }
+
+// hero section 
+.hero-image {
+    height: 50%;
+    background-color: transparent; 
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    border: 1px solid lightblue;
+}
+.hero-text {
+
+}
+// about us section
+#about{
+	color: $maincl ;
+	padding: 1vw;
+	border:  1px solid lightblue;
+}
+.sectionImg{
+	
+	
+	padding: 1vw;
+}
+.sectionImg img{
+	
+	width: 30vw;
+	border-radius: 5px;
+}
+
 // tests 
 body{
-	background-color: lightblue;
+	background-image: url(../../img/bp/blueprint-1.jpg);
 }
