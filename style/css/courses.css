@@ -1,102 +1,127 @@
 * {
   border-radius: 2px;
-  color: #ffffff; }
-
-
+  color: #ffffff;
+}
 
 h1 {
   font-family: "Delius", cursive;
-  font-size: 5em; }
+  font-size: 5em;
+}
 
-p, ul {
+p {
   font-family: Nunito, sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
   text-shadow: 1px 1px 0px #444444;
-  color: #fff; }
+  color: #fff;
+}
 
 section {
-  margin: 80px 0; }
+  margin: 80px 0;
+}
 
 /*NAVBAR*/
-#logo {
-  width: 12em; }
-
 #nav {
   background-color: transparent;
   border: none;
-  	             /*
-  	border-bottom: 5px solid black ;
-  	border-image-source: url(../../img/borders/border2.png);
-  	border-image-slice: 15 1;
-   	border-image-repeat: round;*/
-  padding: 1vw; }
+  /*
+	border-bottom: 5px solid black ;
+	border-image-source: url(../../img/borders/border2.png);
+	border-image-slice: 15 1;
+ 	border-image-repeat: round;*/
+  padding: 1vw;
+}
 
 .navbar {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .navbar-header :hover {
-  color: #ffffff !important; }
+  color: #ffffff !important;
+}
 
 #links a {
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .navbar-default .navbar-brand {
-  color: white; }
+  color: white;
+}
 
 .navbar-default .navbar-toggle {
   background-color: transparent;
   /* Changes regular toggle color */
   border-color: white;
-  /* Changes toggle icon border color */ }
+  /* Changes toggle icon border color */
+}
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #b1001a; }
+  background-color: #b1001a;
+}
 
 .active a {
-  background-color: #b1001a !important; }
+  background-color: #b1001a !important;
+}
 
 strong {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 .hero-image {
   height: 50%;
-  background-image: -webkit-linear-gradient(145deg, transparent 50%, #ffffff 50%);
-  padding: 50px 0px;
+  background-color: #fff;
+  padding: 50px;
   margin-top: 0;
-  border: 15px solid #ffffff; }
+}
 
 .building {
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 .hero-text {
   text-align: center;
-  color: #0032b1; }
+  color: #0032b1;
+}
 
 #about {
   color: #ffffff;
-  padding: 1vw; }
+  padding: 1vw;
+}
 
 .sectionImg {
-  padding: 1vw; }
+  padding: 1vw;
+}
 
 .sectionImg img {
-  width: 100%; }
+  width: 100%;
+}
 
 .form-group img {
-  width: 100%; }
+  width: 100%;
+}
 
 footer {
   background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8));
-  box-shadow: 10px 10px 5px red; }
+  box-shadow: 10px 10px 5px red;
+}
 
 body {
   background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8)), url(../../img/bp/blueprint-9.png);
-  background-color: #0032b1; }
+  background-color: #0032b1;
+}
 
-/*# sourceMappingURL=style.css.map */
+.h4 {
+  color: #0032b1;
+  font-weight: bold;
+}
+
+.well {
+  color: #000;
+}
+/*# sourceMappingURL=courses.css.map */
