@@ -1,7 +1,10 @@
 #nav {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 5px solid black;
+  border-image-source: url(../../img/borders/border2.png);
+  border-image-slice: 15 1;
+  border-image-repeat: round;
   padding: 1vw; }
 
 .navbar-header :hover {
@@ -23,14 +26,37 @@
   background-color: #ffffff; }
 
 .active a {
-  background: black !important;
-  color: black;
+  background-image: linear-gradient(#2471A3, #1A5276);
+  opacity: 0.8;
   border-radius: 8px; }
 
 strong {
   font-size: 1.5em; }
 
+.hero-image {
+  height: 50%;
+  background-color: transparent;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  border: 1px solid lightblue; }
+
+#about {
+  color: #ffffff;
+  padding: 1vw;
+  border: 1px solid lightblue; }
+
+.sectionImg {
+  padding: 1vw; }
+
+.sectionImg img {
+  width: 30vw;
+  border-radius: 5px; }
+
 body {
-  background-color: lightblue; }
+  background-image: url(../../img/bp/blueprint-1.jpg); }
 
 /*# sourceMappingURL=style.css.map */
