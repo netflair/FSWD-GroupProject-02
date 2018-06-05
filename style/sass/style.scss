@@ -5,6 +5,7 @@
 h1{
 	font-family: $Hfont;
 	font-size: 5em;
+	color: $maincl;
 }
 p ,ul{
 	font-family: $Pfont;
@@ -21,7 +22,7 @@ section {
 
 /*NAVBAR*/
 #logo {
-	width: 12em;
+	height: 100%;
 }
 #nav {
 	background-color: transparent ;
@@ -35,6 +36,10 @@ section {
 
 .navbar {
 	margin-bottom: 0;
+}
+
+.navbar-brand {
+	padding: 4px 15px;
 }
 
 .navbar-header :hover{

@@ -17,6 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <!--Custom Style-->
+    <link rel="stylesheet" href="style/css/style.css">
     <link rel="stylesheet" href="style/css/courses.css">
     <title>BIM</title>
 </head>
@@ -39,7 +40,8 @@
                     <img src="">
                     <!-- logo  -->
                     <a class="navbar-brand" href="#">
-                        <strong>BIM</strong> Factory</a>
+                        <img id="logo" src="img/logo.png" alt="logo">
+                    </a>
                     <!-- company name -->
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,32 +71,201 @@
             <!-- /.container-fluid -->
         </nav>
         <!--Courses List, put Template for Script here for Preview-->
+        
+        <!--COURSES___________________________________________________________________-->
+        <div class="row">
+            <!--Booking Preview-->
+            <div class="col-lg-6 col-sm-12 booking-card">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-sm-6 h4">TYPE - TITLE</div>
+                        <div class="col-sm-6 h4 text-right">DATE</div>
+                        <div class="col-sm-12">
+                            DESCRIPTION
+                        </div>
+                        <div class="col-sm-12">
+                        <button class="booking-start btn btn-success pull-right">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Booking Form-->
+                <div class="booking-form">
+                    <form class="row">
+                        <div class="col-sm-6 padding-top">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" name="email">
+                        </div>
 
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" placeholder="Enter full name" name="pwd">
+                        </div>
 
-    <!--COURSES-->
-    <div class="row">
-    <div class="col-lg-6 col-sm-12">
-        <div class="well">
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Adress:</label>
+                            <input type="text" class="form-control" placeholder="Enter adress">
+                        </div>
 
-        </div>
-    </div>  
-     <div class="col-lg-6 col-sm-12">
-        <div class="well row">
-            <div class="col-sm-6 h4">TYPE - TITLE</div>
-            <div class="col-sm-6 h4 text-right">DATE</div>
-            <div class="col-sm-12">
-                DESCRIPTION
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">ZIP:</label>
+                            <input type="text" class="form-control" placeholder="Enter ZIP">
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button type="button" class="booking-cancel btn btn-danger">Cancel Booking</button>
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button class="btn btn-success pull-right">Submit Booking</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <hr>
-            <button class="btn btn-success pull-right">Book Now</button>
+            <!--__Booking Preview-->
+            <!--Booking Preview-->
+            <div class="col-lg-6 col-sm-12 booking-card">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-sm-6 h4">TYPE - TITLE</div>
+                        <div class="col-sm-6 h4 text-right">DATE</div>
+                        <div class="col-sm-12">
+                            DESCRIPTION
+                        </div>
+                        <div class="col-sm-12">
+                        <button class="booking-start btn btn-success pull-right">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Booking Form-->
+                <div class="booking-form">
+                    <form class="row">
+                        <div class="col-sm-6 padding-top">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" name="email">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Name:</label>
+                            <input type="password" class="form-control" placeholder="Enter full name" name="pwd">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Adress:</label>
+                            <input type="text" class="form-control" placeholder="Enter adress">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">ZIP:</label>
+                            <input type="text" class="form-control" placeholder="Enter ZIP">
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button type="button" class="booking-cancel btn btn-danger">Cancel Booking</button>
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button class="btn btn-success pull-right">Submit Booking</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--__Booking Preview-->
+            <!--Booking Preview-->
+            <div class="col-lg-6 col-sm-12 booking-card">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-sm-6 h4">TYPE - TITLE</div>
+                        <div class="col-sm-6 h4 text-right">DATE</div>
+                        <div class="col-sm-12">
+                            DESCRIPTION
+                        </div>
+                        <div class="col-sm-12">
+                        <button class="booking-start btn btn-success pull-right">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Booking Form-->
+                <div class="booking-form">
+                    <form class="row">
+                        <div class="col-sm-6 padding-top">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" name="email">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Name:</label>
+                            <input type="password" class="form-control" placeholder="Enter full name" name="pwd">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Adress:</label>
+                            <input type="text" class="form-control" placeholder="Enter adress">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">ZIP:</label>
+                            <input type="text" class="form-control" placeholder="Enter ZIP">
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button type="button" class="booking-cancel btn btn-danger">Cancel Booking</button>
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button class="btn btn-success pull-right">Submit Booking</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--__Booking Preview-->
+            <!--Booking Preview-->
+            <div class="col-lg-6 col-sm-12 booking-card">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-sm-6 h4">TYPE - TITLE</div>
+                        <div class="col-sm-6 h4 text-right">DATE</div>
+                        <div class="col-sm-12">
+                            DESCRIPTION
+                        </div>
+                        <div class="col-sm-12">
+                        <button class="booking-start btn btn-success pull-right">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Booking Form-->
+                <div class="booking-form">
+                    <form class="row">
+                        <div class="col-sm-6 padding-top">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" name="email">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Name:</label>
+                            <input type="password" class="form-control" placeholder="Enter full name" name="pwd">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">Adress:</label>
+                            <input type="text" class="form-control" placeholder="Enter adress">
+                        </div>
+
+                        <div class="col-sm-6 padding-top">
+                            <label for="name">ZIP:</label>
+                            <input type="text" class="form-control" placeholder="Enter ZIP">
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button type="button" class="booking-cancel btn btn-danger">Cancel Booking</button>
+                        </div>
+                        <div class="col-sm-6 padding-top">
+                            <button class="btn btn-success pull-right">Submit Booking</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--__Booking Preview-->
+           
         </div>
-    </div>  
-    </div>
 
 
     </div>
     <!--Custom JS-->
     <script src="js/main.js"></script>
+    <script src="js/courses.js"></script>
 </body>
 
 </html>

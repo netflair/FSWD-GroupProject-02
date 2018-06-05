@@ -1,5 +1,5 @@
 @import 'variables';
-@import 'style';
+
 
 .h4 {
     color: $backgroundcl;
@@ -8,4 +8,17 @@
 
 .well {
     color: #000;
+}
+
+.padding-top{
+    margin-top: 20px;
+}
+
+.booking-form {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: -21px;
+    width: 98%;
+    margin-bottom: 20px;
 }
