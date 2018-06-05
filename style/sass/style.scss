@@ -1,11 +1,15 @@
 @import 'variables';
-// h1{
-// 	font-family: $Hfont;
-// 	font-size: 4em;
-// }
-// p{
-// 	font-family: $Pfont;
-// } doesn't look nice 
+*{
+	border-radius: 2px;
+	color: $maincl;
+}
+h1{
+	font-family: $Hfont;
+	font-size: 5em;
+}
+p{
+	font-family: $Pfont;
+} //doesn't look nice 
 #nav {
 	background-color: transparent ;
 	border: none;
@@ -37,7 +41,7 @@
 .active a {
 	background-image: linear-gradient(#2471A3, #1A5276);
 	opacity: 0.8;
-	border-radius: 8px;
+	// border-radius: 8px;
 }
 strong{
 	font-size: 1.5em;
@@ -72,7 +76,13 @@ strong{
 .sectionImg img{
 	
 	width: 30vw;
-	border-radius: 5px;
+	// border-radius: 5px;
+}
+//contact 
+.form-group{
+	img{
+		width:100%;
+	}
 }
 
 // tests 
