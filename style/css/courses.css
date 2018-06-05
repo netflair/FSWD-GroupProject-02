@@ -1,5 +1,6 @@
 * {
   border-radius: 2px;
+  color: #ffffff;
 }
 
 h1 {
@@ -114,4 +115,13 @@ body {
   background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8)), url(../../img/bp/blueprint-9.png);
   background-color: #0032b1;
 }
-/*# sourceMappingURL=style.css.map */
+
+.h4 {
+  color: #0032b1;
+  font-weight: bold;
+}
+
+.well {
+  color: #000;
+}
+/*# sourceMappingURL=courses.css.map */
