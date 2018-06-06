@@ -2,13 +2,14 @@
 *{
 	border-radius: 2px;
 }
-h1{
+h1 , .h1{
 	font-family: $Hfont;
 	font-size: 5em;
 	color: $maincl;
 	margin-bottom: 50px;
-	text-align: center;
+	// text-align: center;
 	text-transform: uppercase;
+	mix-blend-mode: difference; 
 }
 p ,ul, .reasons{
 	font-family: $Pfont;
@@ -17,6 +18,7 @@ p ,ul, .reasons{
 	word-spacing: 0.2em;
 	text-shadow: 1px 1px 0px rgb(68, 68, 68);
 	color:#fff;
+	mix-blend-mode: difference;
 } //doesn't look nice 
 
 section {
@@ -117,19 +119,60 @@ strong{
 	padding: 20px 0;
 }
 //contact 
-.form-group{
-	img{
-		width:100%;
-	}
+#contact{
+	color: $maincl;
+	background-image: -webkit-linear-gradient(33deg, transparent 53%, $maincl 53%);
+	border: 15px solid $maincl; 
+	position: relative;
 }
+#submit{
+	margin-top: 1.5em;
+}
+.h1{
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 130px;
+	right: -200px;
+
+}
+#address-block{
+	margin-right: 20px;
+}
+.fab {
+  padding: 5px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 10px;
+}
+#git {
+	color:#2D4761;
+}
+#fb{
+ color: #3B5998;
+}
+#google{
+color: #dd4b39;
+}
+#twitter{
+ color: #55ACEE;
+}
+#insta{
+color:#E94158;
+}
+.fab:hover {
+    text-shadow: 2px 2px 5px lightgrey;
+}
+
 // footer
 footer{
 	background: linear-gradient( rgba(0, 50, 177,0.8), rgba(0, 50, 177, 0.8)); // nice one
-	box-shadow:10px 10px 5px red ;
+
 }
 // tests 
 body{
-		background: linear-gradient( rgba(0, 50, 177,0.8), rgba(0, 50, 177, 0.8)),url(../../img/bp/blueprint-9.png); // nice one
+	background: linear-gradient( rgba(0, 50, 177,0.8), rgba(0, 50, 177, 0.8)),url(../../img/bp/blueprint-9.png); // nice one
 
 	background-color:$backgroundcl;
 	// background-image: url(../../img/bp/blueprint-9.png);

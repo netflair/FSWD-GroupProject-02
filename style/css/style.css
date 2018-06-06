@@ -1,13 +1,13 @@
 * {
   border-radius: 2px; }
 
-h1 {
+h1, .h1 {
   font-family: "Delius", cursive;
   font-size: 5em;
   color: #ffffff;
   margin-bottom: 50px;
-  text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  mix-blend-mode: difference; }
 
 p, ul, .reasons {
   font-family: Nunito, sans-serif;
@@ -15,7 +15,8 @@ p, ul, .reasons {
   letter-spacing: 0.1em;
   word-spacing: 0.2em;
   text-shadow: 1px 1px 0px #444444;
-  color: #fff; }
+  color: #fff;
+  mix-blend-mode: difference; }
 
 section {
   margin: 150px 0; }
@@ -96,12 +97,52 @@ strong {
   font-size: 2em;
   padding: 20px 0; }
 
-.form-group img {
-  width: 100%; }
+#contact {
+  color: #ffffff;
+  background-image: -webkit-linear-gradient(33deg, transparent 53%, #ffffff 53%);
+  border: 15px solid #ffffff;
+  position: relative; }
+
+#submit {
+  margin-top: 1.5em; }
+
+.h1 {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 130px;
+  right: -200px; }
+
+#address-block {
+  margin-right: 20px; }
+
+.fab {
+  padding: 5px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 10px; }
+
+#git {
+  color: #2D4761; }
+
+#fb {
+  color: #3B5998; }
+
+#google {
+  color: #dd4b39; }
+
+#twitter {
+  color: #55ACEE; }
+
+#insta {
+  color: #E94158; }
+
+.fab:hover {
+  text-shadow: 2px 2px 5px lightgrey; }
 
 footer {
-  background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8));
-  box-shadow: 10px 10px 5px red; }
+  background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8)); }
 
 body {
   background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8)), url(../../img/bp/blueprint-9.png);
