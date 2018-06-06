@@ -6,9 +6,12 @@ h1 {
   font-family: "Delius", cursive;
   font-size: 5em;
   color: #ffffff;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-p, ul {
+p, ul, .reasons {
   font-family: Nunito, sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
@@ -18,7 +21,7 @@ p, ul {
 }
 
 section {
-  margin: 80px 0;
+  margin: 150px 0;
 }
 
 /*NAVBAR*/
@@ -109,6 +112,11 @@ strong {
 
 .sectionImg img {
   width: 100%;
+}
+
+.reasons i {
+  font-size: 2em;
+  padding: 20px 0;
 }
 
 .form-group img {
