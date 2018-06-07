@@ -2,7 +2,17 @@
 *{
 	border-radius: 2px;
 }
-h1 , .h1{
+@media (max-width: 768px) 
+{
+    .h1
+    {
+        display: none;
+    }
+    #whatimg{
+    	display: none;
+    }
+}
+h1 ,h2 , .h1{
 	font-family: $Hfont;
 	font-size: 5em;
 	color: $maincl;
@@ -11,7 +21,7 @@ h1 , .h1{
 	text-transform: uppercase;
 	mix-blend-mode: difference; 
 }
-p ,ul, .reasons{
+p ,ul, .reasons , hr{
 	font-family: $Pfont;
 	font-size: 1.3em;
 	letter-spacing: 0.1em;
@@ -131,6 +141,8 @@ strong{
 }
 #submit{
 	margin-top: 1.5em;
+	outline: none;
+	background-color:lightgrey;
 }
 .h1{
 	transform: rotate(-90deg);
@@ -171,7 +183,16 @@ color:#E94158;
 
 // footer
 footer{
-	background: linear-gradient( rgba(0, 50, 177,0.8), rgba(0, 50, 177, 0.8)); // nice one
+	background-color: #1c2339;
+	color: $maincl;
+	margin-top:1vw;
+	p{
+		mix-blend-mode: normal;
+	}
+	img{
+		width:85px;
+	}
+	 
 
 }
 // tests 
