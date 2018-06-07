@@ -7,7 +7,7 @@
 
   #whatimg {
     display: none; } }
-h1, h2, .h1 {
+h1, h4, .h1 {
   font-family: "Delius", cursive;
   font-size: 5em;
   color: #ffffff;
@@ -15,7 +15,11 @@ h1, h2, .h1 {
   text-transform: uppercase;
   mix-blend-mode: difference; }
 
-p, ul, .reasons, hr {
+small {
+  color: #edeff2 !important;
+  font-size: 0.5em !important; }
+
+p, ul, .reasons, hr, .collapse {
   font-family: Nunito, sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.1em;
@@ -31,7 +35,7 @@ section {
 #logo {
   height: 100%; }
 
-#nav {
+#nav, #navblog {
   background-color: transparent;
   border: none;
   	             /*
@@ -160,6 +164,48 @@ footer {
     mix-blend-mode: normal; }
   footer img {
     width: 85px; }
+
+.post {
+  height: 555px;
+  margin: 60px 60px 80px 60px; }
+
+.card {
+  background-color: #ffffff;
+  padding: 2px;
+  margin-bottom: 2vw; }
+  .card img {
+    width: 100%; }
+
+.card-body {
+  text-shadow: none;
+  background-color: #ffffff;
+  padding: 10px;
+  border-top: 1px solid darkgrey; }
+
+.card-text, .collapse {
+  text-shadow: none; }
+
+.card.my-4 {
+  background-color: #f7f7f7;
+  border: 0px; }
+
+.card-footer {
+  color: #6c757d;
+  background-color: lightgrey; }
+
+#navblog {
+  border-bottom: 10px solid white;
+  border-image-source: url(../../img/borders/border2.png);
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+  margin-bottom: 3vw; }
+
+li a {
+  color: #ffffff; }
+
+li a:hover {
+  text-shadow: 2px 2px 5px green;
+  color: #ffffff; }
 
 body {
   background: linear-gradient(rgba(0, 50, 177, 0.8), rgba(0, 50, 177, 0.8)), url(../../img/bp/blueprint-9.png);
