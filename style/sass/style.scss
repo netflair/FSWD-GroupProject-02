@@ -21,7 +21,7 @@ h1 ,h4 , .h1 , {
 	text-transform: uppercase;
 	mix-blend-mode: difference; 
 }
-small {
+h1 small {
 	color: #edeff2 !important;
 	font-size: 0.5em !important;
 }
@@ -191,6 +191,7 @@ color:#E94158;
 footer{
 	background-color: #1c2339;
 	color: $maincl;
+	text-align: center;
 
 	p{
 		mix-blend-mode: normal;
@@ -204,14 +205,12 @@ footer{
 	 
 
 }
-<<<<<<< HEAD
 
 .flexy {
 	margin-top: 50px;
 	display: flex;
 	align-items: center;
 }
-=======
 // blog
 .post {
 	height: 555px;
@@ -264,7 +263,6 @@ li {
 	}
 }
 
->>>>>>> d9ae5fb12ae7c88be7fc7c98c81f525c6137cad9
 // tests 
 body{
 	background: linear-gradient( rgba(0, 50, 177,0.8), rgba(0, 50, 177, 0.8)),url(../../img/bp/blueprint-9.png); // nice one
