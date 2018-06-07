@@ -73,16 +73,24 @@ function readCourseData() {
             "<div course-key='" + key + "' class='col-lg-6 col-sm-12 booking-card'>" +
                 "<div class='well'>" +
                     "<div class='row'>" +
-                        "<div class='col-sm-6 h4'>" + value.name + "</div>" +
-                        "<div class='col-sm-6 h4 text-right'>DATE</div>" +
-                        "<div class='col-sm-12'>" +
-                            value.description +
+                        "<div class='col-sm-3'>" +
+                            "<img class='img-responsive' src='"+value.img+"' alt='house'>" +
                         "</div>" +
-                        "<div class='col-sm-12'>" +
-                            "<button class='booking-start btn btn-success pull-right'>Book Now</button>" +
+                        "<div class='col-sm-9'>" +
+                            "<div class='row'>" +
+                                "<div class='col-sm-6 h4'>"+value.name+" | <span class='text-danger'>"+value.price+"€</span>" +
+                                "</div>" +
+                                "<div class='col-sm-6 h4 text-right'>Start: "+value.start+"<br><small>ends "+value.end+"</small></div>" +
+                                "<div class='col-sm-9'>" + value.description + "<br><br>" +
+                                    "<a href='#'>Get Full Course Description (PDF)</a>" +
+                                "</div>" +
+                                "<div class='col-sm-12'>" +
+                                    "<button class='booking-start btn btn-success pull-right'>Book Now</button>" +
+                                "</div>" +
+                            "</div>" +
                         "</div>" +
                     "</div>" +
-                "</div>" +
+                "</div>"+
                 //Booking Form
                 "<div class='booking-form'>" +
                     "<form class='row'>" +
@@ -122,10 +130,25 @@ function readCourseData() {
                         "</div>" +
                     "</form>" +
                 "</div>" +
-            "</div>";
+            "</div> <span class='phantom'></span>";
             
             // courseCard.setAttribute("course-key", key);
             courseListUI.innerHTML = courseCard;
+
+            var val = $("span.phantom").attr("class");
+                if( val == "phantom"){
+                $('.booking-form').hide();
+
+                $('.booking-start').on('click', function() {
+                    $(this).closest('.booking-card').find('.booking-form').animate({ height: "toggle" });
+                });
+
+                $('.booking-cancel').on('click', function() {
+                    $(this).closest('.booking-form').animate({ height: "toggle" });
+                });
+                }
+
+
 
         });
 
